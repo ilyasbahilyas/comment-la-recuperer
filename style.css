@@ -40,10 +40,22 @@ button {
     color: white; /* Pour une meilleure visibilité du texte */
 }
 #lancerSite {
+    position: relative;
     background-color: #ffff00;
     height: 175%;
+    height: 150px;
+    width: 500px;
+    font-size: 300%;
+
+    
+
 
 }
+#texteSupplementaire{
+    color : black;
+    font-size: 150%;
+}
+
 @keyframes grow {
     from { transform: scale(1); }
     to { transform: scale(1.1); }
@@ -68,3 +80,4 @@ button {
     align-items: center;
     width: 100%;
 }
+

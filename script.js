@@ -51,6 +51,9 @@ boutonGauche.addEventListener('click', function() {
     this.classList.add('bouton-animate-shrink');
     setTimeout(() => this.classList.remove('bouton-animate-shrink'), 500); // Retirer la classe après l'animation
 musique.play();
+// Afficher le texte supplémentaire
+var texteSupplementaire = document.getElementById('texteSupplementaire');
+texteSupplementaire.style.display = 'block';
 });
 
 boutonDroit.addEventListener('click', function() {
